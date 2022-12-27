@@ -16,7 +16,7 @@ function buildToDo(todo){
 
     //passing in the function handleDelete as an argument while adding the event listener.
     btn.addEventListener('click', handleDelete)
-    btn.textContent= "  X."
+    btn.textContent= "  X"
 
 
     p.textContent=`${todo}`
